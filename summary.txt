@@ -1,0 +1,27 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+    I chose python because it is the most effective, understandable, and widely-used language.
+    I chose to use pandas as soon as I saw in the write up that there is a timestamp in the csv,
+    because pandas have a date-time parsing function which allows for sorting by time. It came in very
+    handy when sorting from oldest points to newest. I also used pandas to store the csv because
+    its a great way to store csv-form data and access them through labels or indexing.
+    The final output was of dictionary form, so that is why I am using it to produce the output.
+    I used the python sys library to get the command line arguments.
+
+2. What are the advantages and disadvantages of your solution?
+    The advantages of my solution is that it is easy to understand, usable on almost any machine
+    and overall, if given the correct arguments, in the average-case, it will run relatively fast.
+    The disadvantages are that python is not the fastest compiling language, and if the user asks
+    for a big number of points to be spent, the for loop in spend() may not be the most optimal as
+    in the worst case it could run for O(n) where n is the number of rows in the csv file.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+    My favorite and toughest school project has to be the distributed network filesystem. It was an 
+    operating systems project where I created a user library that could tweak a disk image on a server by
+    sending packets through the UDP network protocol. The server-side code was the toughest because
+    that was where I had to receive the packet containing information on what to do with the disk image
+    on the server. The biggest challenge with this project was the sheer amount of edge-cases that had to
+    be considered and the timeframe we were given. We were given two weeks to essentially create a server-
+    based filesystem, with a fully working user library. I learned a lot of things from this project, most
+    imporatantly was patience. Not everything always goes the way you intend to, but if you put enough work 
+    in, it will work eventually. Overall, I really enjoyed operating systems, so that is why I enjoyed this 
+    project.
